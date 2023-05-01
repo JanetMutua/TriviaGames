@@ -9,10 +9,6 @@ import android.view.ViewGroup
 
 class RulesFragment : Fragment() {
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-
-    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -21,5 +17,6 @@ class RulesFragment : Fragment() {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_rules, container, false)
     }
+
 
 }
